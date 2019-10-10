@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ProjectLast</string>
+
+
+    <!--main Strings -->
+    <string name="category1">Grocery</string>
+    <string name="category2">Gifts</string>
+    <string name="category3">Beverages</string>
+    <string name="category4">Personal Care</string>
+    <string name="loginUsernameHint">Username</string>
+    <string name="loginPasswordHint">Password</string>
+    <string name="whoAmI1">Customer</string>
+    <string name="whoAmI2">Admin</string>
+    <string name="addToCart">Add to Cart</string>
+
+
+    <!--Product category1 Detaisl-->
+    <string name="c1_i1_Name"> MD Jam Bottle</string>
+    <string name="c1_i1_Price"> Rs. 350.00</string>
+    <string name="c1_i2_Name"> Milk Biscuit</string>
+    <string name="c1_i2_Price"> Rs. 60.00</string>
+    <string name="c1_i3_Name"> Anchor Butter</string>
+    <string name="c1_i3_Price"> Rs. 650.00</string>
+    <string name="c1_i4_Name"> Biscuits Item</string>
+    <string name="c1_i4_Price"> Rs. 30.00</string>
+    <string name="c1_i5_Name"> Anchor Milk Power</string>
+    <string name="c1_i5_Price"> Rs. 375.00</string>
+    <string name="c1_i6_Name"> LifeBoy Soap</string>
+    <string name="c1_i6_Price"> Rs. 57.00</string>
+
+
+    <!--Product category2 Detaisl-->
+    <string name="c2_i1_Name"> Glass Set</string>
+    <string name="c2_i1_Price"> Rs. 680.00</string>
+    <string name="c2_i2_Name"> Stawberry Cake</string>
+    <string name="c2_i2_Price"> Rs. 380.00</string>
+    <string name="c2_i3_Name"> Gift Pack</string>
+    <string name="c2_i3_Price"> Rs. 1000.00</string>
+    <string name="c2_i4_Name"> Birthday Cake</string>
+    <string name="c2_i4_Price"> Rs. 280.00</string>
+    <string name="c2_i5_Name"> iTune Gift Card</string>
+    <string name="c2_i5_Price"> Rs. 250.00</string>
+    <string name="c2_i6_Name"> Normal Gift card</string>
+    <string name="c2_i6_Price"> Rs. 100.00</string>
+
+
+    <!--Product category3 Detaisl-->
+    <string name="c3_i1_Name"> Coca-Cola Drink</string>
+    <string name="c3_i1_Price"> Rs. 100.00</string>
+    <string name="c3_i2_Name"> Coca-Cola Bottle</string>
+    <string name="c3_i2_Price"> Rs. 50.00</string>
+    <string name="c3_i3_Name"> Milo Drink</string>
+    <string name="c3_i3_Price"> Rs. 60.00</string>
+    <string name="c3_i4_Name"> Frsh-Milk</string>
+    <string name="c3_i4_Price"> Rs. 70.00</string>
+    <string name="c3_i5_Name"> EGB Mega</string>
+    <string name="c3_i5_Price"> Rs. 250.00</string>
+    <string name="c3_i6_Name"> Necto Mega</string>
+    <string name="c3_i6_Price"> Rs. 240.00</string>
+
+
+    <!--Product category4 Detaisl-->
+    <string name="c4_i1_Name"> Perfume</string>
+    <string name="c4_i1_Price"> Rs. 380.00</string>
+    <string name="c4_i2_Name"> Hire Jell</string>
+    <string name="c4_i2_Price"> Rs. 320.00</string>
+    <string name="c4_i3_Name"> 4Ever FaceWash</string>
+    <string name="c4_i3_Price"> Rs. 1000.00</string>
+    <string name="c4_i4_Name"> Chandanalepa</string>
+    <string name="c4_i4_Price"> Rs. 150.00</string>
+    <string name="c4_i5_Name"> gillette razor</string>
+    <string name="c4_i5_Price"> Rs. 80.00</string>
+    <string name="c4_i6_Name"> Siddhalepa</string>
+    <string name="c4_i6_Price"> Rs. 100.00</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

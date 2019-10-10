@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <ViewFlipper
+            android:id="@+id/bckgrndViewFlipper1"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/bckgrndImageView8"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow01" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView7"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow02" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView6"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow03" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView5"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow04" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow05" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow06" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow07" />
+
+            <ImageView
+                android:id="@+id/bckgrndImageView1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slideshow08" />
+
+        </ViewFlipper>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/labl_round_selected"
+
+                android:gravity="center"
+                android:onClick="changeFragment"
+                android:text="@string/category1" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/lbl_round_notselected"
+                android:gravity="center"
+                android:onClick="changeFragment"
+                android:text="@string/category2" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/lbl_round_notselected"
+                android:gravity="center"
+                android:onClick="changeFragment"
+                android:text="@string/category3" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/lbl_round_notselected"
+                android:gravity="center"
+                android:onClick="changeFragment"
+                android:text="@string/category4" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="29dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:background="@drawable/cart"
+                android:onClick="goToCart" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="2dp">
+
+            <fragment
+                android:id="@+id/defultFragment"
+                android:name="com.example.projectlast.cat1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
