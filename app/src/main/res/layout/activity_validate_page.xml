@@ -31,35 +31,35 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/pics2" />
+            android:src="@drawable/slideshow02" />
 
         <ImageView
             android:id="@+id/bckgrndImageView6"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/pics1" />
+            android:src="@drawable/slideshow03" />
 
         <ImageView
             android:id="@+id/bckgrndImageView5"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/pics2" />
+            android:src="@drawable/pics1" />
 
         <ImageView
             android:id="@+id/bckgrndImageView4"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/pics1" />
+            android:src="@drawable/slideshow02" />
 
         <ImageView
             android:id="@+id/bckgrndImageView3"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/pics2" />
+            android:src="@drawable/slideshow03" />
 
         <ImageView
             android:id="@+id/bckgrndImageView2"
@@ -73,7 +73,7 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:scaleType="centerCrop"
-            android:src="@drawable/pics2" />
+            android:src="@drawable/slideshow02" />
 
     </ViewFlipper>
 
@@ -86,7 +86,7 @@
             <ImageButton
                 android:id="@+id/imageButton2"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="180dp"
                 android:background="@color/common_google_signin_btn_text_dark_default"
                 android:onClick="admin"
                 app:srcCompat="@drawable/admin" />
@@ -94,7 +94,7 @@
             <ImageButton
                 android:id="@+id/imageButton4"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="180dp"
                 android:background="@color/common_google_signin_btn_text_dark_default"
                 android:onClick="user"
                 app:srcCompat="@drawable/user" />

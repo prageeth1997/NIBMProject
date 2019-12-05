@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">fullProject</string>
+    <string name="name">මෝටර් රථ දෙපාර්තමේන්තුව </string>
+
+    <string name="username">ජාතික හැදුනුම්පත් අංකය  ඇතුලත් කරන්න  </string>
+    <string name="passsword">මුරපදය ඇතුලත් කරන්න </string>
+    <string name="log">ලොග් වන්න </string>
+    <string name="wait">කරුණාකර මදක් රැදිසිටින්න...</string>
+    <string name="invalid">ඔබගේ ජාතික හැදුනුම්පත් අංකය හෝ මුරපදය වැරදි සහගතයි </string>
+</resources>

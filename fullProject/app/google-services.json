@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "619789044952",
+    "firebase_url": "https://policeweb-a46f0.firebaseio.com",
+    "project_id": "policeweb-a46f0",
+    "storage_bucket": "policeweb-a46f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:619789044952:android:618cb03e2ca1bcc0a65bad",
+        "android_client_info": {
+          "package_name": "com.example.fullproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "619789044952-bsk4hllk9ppe94kpl3jnoh0n60ggi4mj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fullproject",
+            "certificate_hash": "00da182916738a0494ea6603d6c3bad0f757e1d3"
+          }
+        },
+        {
+          "client_id": "619789044952-5gmfnofpthv1smhc6s35pu443ab8i376.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3E-EJci8MYdXnrUereR2yPVVxsvyBx_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "619789044952-5gmfnofpthv1smhc6s35pu443ab8i376.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

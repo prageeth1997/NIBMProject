@@ -35,6 +35,7 @@ public class cart extends AppCompatActivity {
     Button shpN;
     ConstraintLayout cl;
     ImageView img;
+    ConstraintLayout csn;
 
     float price = 0;
     int itemCount = 1 ;
@@ -47,6 +48,7 @@ public class cart extends AppCompatActivity {
         setContentView(R.layout.activity_cart);
 
         btnSend = findViewById(R.id.button5);
+       // csn = findViewById(R.id.cnstrainLayout);
 
         msg = findViewById(R.id.textView10);
         prg = findViewById(R.id.progressBar);
@@ -80,12 +82,14 @@ public class cart extends AppCompatActivity {
                                 prg.setVisibility(View.GONE);
                                 msg.setVisibility(View.VISIBLE);
                                 shpN.setVisibility(View.VISIBLE);
+                                //csn.setVisibility(View.GONE);
 
                             }
                         }
 
                         @Override
                         public void onCancelled(@NonNull DatabaseError databaseError) {
+
 
                         }
                     });

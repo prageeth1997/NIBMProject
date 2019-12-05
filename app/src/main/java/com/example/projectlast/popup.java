@@ -48,7 +48,7 @@ public class popup extends AppCompatActivity {
         int width = dm.widthPixels;
         int height = dm.heightPixels;
 
-        getWindow().setLayout((int)(width * .8) , (int)(height * .6));
+        getWindow().setLayout((int)(width * .9) , (int)(height * .6));
 
 
         Intent intGetVal = getIntent();
@@ -124,6 +124,12 @@ public class popup extends AppCompatActivity {
         quantity2 = quantity2 - 1;
 
         qty.setText(String.valueOf(quantity2));
+    }
+
+
+    public void cancel(View view){
+
+        this.finish();
     }
 
 

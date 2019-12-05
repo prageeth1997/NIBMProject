@@ -5,8 +5,14 @@
             <!-- draw a 4 dp width border around the rectangle shape -->
             <solid android:color="#009688"/>
 
+            <stroke android:color="#070607" android:width="3dp" />
+
+
 
         </shape>
+
+
+
 
     </item>
 

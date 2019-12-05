@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".orderSuccessfull"></activity>
-        <activity android:name=".address" />
-        <activity android:name=".showOrdersorAdmin" />
+        <activity android:name=".signIn" android:theme="@style/AppThemeNoActionBar" ></activity>
+        <activity android:name=".Main2Activity" android:theme="@style/AppThemeNoActionBar"  />
+        <activity android:name=".orderSuccessfull" android:theme="@style/AppThemeNoActionBar"  />
+        <activity android:name=".address" android:theme="@style/AppThemeNoActionBar"  />
+        <activity android:name=".showOrdersorAdmin"  android:theme="@style/AppThemeNoActionBar" />
         <activity
             android:name=".popup"
             android:theme="@style/AppThemeNoActionBar" />

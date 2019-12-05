@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "81205299662",
+    "firebase_url": "https://phoneshop-24249.firebaseio.com",
+    "project_id": "phoneshop-24249",
+    "storage_bucket": "phoneshop-24249.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81205299662:android:0f764bce7f823c9e51439f",
+        "android_client_info": {
+          "package_name": "com.example.imagetest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81205299662-rpf57c38t7sg747v0221erbkcpj7r42i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imagetest",
+            "certificate_hash": "00da182916738a0494ea6603d6c3bad0f757e1d3"
+          }
+        },
+        {
+          "client_id": "81205299662-vv7qm0e0nb1jee4qk0epjihfpq8aq46n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgBq72ZbLoBddiUNvhs99rDc7OhXQcK7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81205299662-vv7qm0e0nb1jee4qk0epjihfpq8aq46n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

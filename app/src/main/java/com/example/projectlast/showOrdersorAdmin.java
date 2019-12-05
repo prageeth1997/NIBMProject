@@ -3,10 +3,12 @@ package com.example.projectlast;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
 import android.text.Layout;
+import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -98,9 +100,11 @@ public class showOrdersorAdmin extends AppCompatActivity {
 
 
     //Show Element1
-    public void showElement( String s) {
+    @SuppressLint("WrongConstant")
+    public void showElement(String s) {
 
-        LinearLayout layout = (LinearLayout) findViewById(R.id.mainLayout);
+        LinearLayout layout ;
+        layout = findViewById(R.id.mainLayout);
         for(int cf = 1 ; cf <= Integer.valueOf(s) ; cf++) {
             final int finalCf = cf;
             LinearLayout row = new LinearLayout(this);
@@ -113,11 +117,14 @@ public class showOrdersorAdmin extends AppCompatActivity {
                     LinearLayout.LayoutParams.MATCH_PARENT,LinearLayout.LayoutParams.WRAP_CONTENT
             );
 
+            LinearLayout.LayoutParams paramsbtn = new LinearLayout.LayoutParams(
+                    LinearLayout.LayoutParams.WRAP_CONTENT,LinearLayout.LayoutParams.WRAP_CONTENT
+            );
 
 
             params.setMargins(16 , 16 ,16 ,16  );
             params2.setMargins(8 , 8 ,8 ,8  );
-
+            paramsbtn.setMargins(240 , 16 ,16 ,16  );
 
 
 
@@ -134,7 +141,8 @@ public class showOrdersorAdmin extends AppCompatActivity {
 
             Button btn1 = new Button(this);
             btn1.setId(cf);
-            btn1.setText("Delete Order");
+            btn1.setText("             Delete Order             ");
+
             btn1.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -159,7 +167,7 @@ public class showOrdersorAdmin extends AppCompatActivity {
             text2.setLayoutParams(params);
             row.addView(text2);
 
-            btn1.setLayoutParams(params);
+            btn1.setLayoutParams(paramsbtn);
             btn1.setBackgroundResource(R.drawable.button_radius1);
             row.addView(btn1);
 
